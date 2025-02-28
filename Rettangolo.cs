@@ -8,10 +8,41 @@ namespace ConsoleApp2
 {
     internal class Rettangolo
     {
-        public double Altezza { get; set; }
-        public double Larghezza { get; set; }
+        private double altezza;
+        private double larghezza;
 
-        public static int ConteggioRettangoli {get; set;}
+        public double Altezza
+        {
+            get { return altezza; }
+            set
+            {
+                if (value > 0)
+                {
+                    altezza = value;
+                }
+                else
+                {
+                    altezza = 1;
+                }
+            }       
+        }
+        public double Larghezza
+        {
+            get { return larghezza; }
+            set
+            {
+                if (value > 0)
+                {
+                    larghezza = value;
+                }
+                else
+                {
+                    larghezza = 1;
+                }
+            }
+        }       
+
+        public static int ConteggioRettangoli { get; set; }
 
 
         /*public Rettangolo(double altezza = 1, double larghezza = 1) // all in one

@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine($"Creazione nuovo Rettangolo di partenza:");
-            Rettangolo rettangoloBase = new Rettangolo();
+            Rettangolo rettangoloBase = new Rettangolo(0, 0);
             Console.WriteLine($"\nL'altezza è: {rettangoloBase.Altezza}");
             Console.WriteLine($"\nLa larghezza è: {rettangoloBase.Larghezza}");
 
