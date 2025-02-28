@@ -1,0 +1,10 @@
+﻿Implementa una classe Rettangolo con le seguenti caratteristiche:
+Un costruttore di default che imposta larghezza e altezza a 1.
+Un costruttore con parametri che permette di impostare larghezza e altezza.
+Proprietà Larghezza e Altezza con validazione (devono essere maggiori di zero).
+Un metodo CalcolaArea() che restituisce l'area del rettangolo.
+Un overload del metodo CalcolaArea(int fattore) che restituisce l'area moltiplicata per il fattore.
+Una proprietà statica ConteggioRettangoli che tiene traccia del numero di istanze create.
+Un metodo statico ConfrontaAree(Rettangolo r1, Rettangolo r2) che restituisce il rettangolo con l'area maggiore.
+
+Per ora svolgi il punto 3 senza validazione. Magari fallo alla fine come sorta di bonus
